@@ -67,7 +67,7 @@ int main() {
     // index 0 is 0, so the absent count will be wrong (ERROR STATE)
     // however, the total absences is 2 so the return value of false is still correct (student passes the class)
     // -------------------------------------------------
-    vector<int> q4_input = {0, 0, 1, 1, 1, 1, 1, 1, 1};
+    vector<int> q4_input = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1};
     bool q4_should_fail = false; // the student should pass the class
     run_test_case("Q4 (Error State, No Failure)", q4_input, q4_should_fail);
 
